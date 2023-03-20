@@ -1,0 +1,84 @@
+/* Global Styles */
+
+html {
+  box-sizing: border-box;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+
+  /* outline: 1px solid red !important; */
+}
+
+/* Text Styles */
+h1 {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 100;
+  line-height: 1;
+  letter-spacing: -8%;
+}
+
+h2,
+h3,
+h4,
+p,
+figcaption,
+a,
+button {
+  font-family: 'Lato', sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 200;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.orange-color {
+  color: #ec5242;
+}
+
+.darkgray-color {
+  color: #272a31;
+}
+
+.gray-color {
+  color: #595959;
+}
+
+.light-gray-color {
+  color: #868686;
+}
+
+/* Divisory line on titles */
+.line {
+  width: 5rem;
+  height: 0.2rem;
+  background-color: #ec5242;
+}
+
+.secundary-line {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #d9d9d9;
+}
