@@ -7,18 +7,135 @@
     <meta name="author" content="Ruth Abreu">
     <meta name="description" content="Microverse First Capstone">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/home.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">                
-    <title>Tech on Demand</title>
+    <title>Tech on Demand - Home</title>
 </head>
 <body>
     <main>
-        <header>
-            <h1>Test</h1>
+        <header class="header">
+            <div class="toolbar">
+                <nav class="image-container hide-desktop" id="hamburger"></nav>                
+                <nav class="menu-desktop">
+                    <ul class="hide-mobile">
+                        <a class="menu__link" href="#"><img src="images/facebook.svg" alt=""></a>
+                        <a class="menu__link" href="#"><img src="images/twitter-icon.svg" alt=""></a>
+                        <a class="menu__link" href="#">English</a>
+                        <a class="menu__link" href="#">My Page</a>
+                        <a class="menu__link" href="#">Logout</a>
+                    </ul>
+                </nav>   
+                <nav class="menu hide-mobile">
+                    <div class="image-container hide-mobile" id="logo">
+                        <a href="index.html"><img src="images/logo-webinar.png" alt="Tech on Demand" /></a>
+                    </div>
+                    <ul>
+                        <a class="menu__link" href="#contact-form">About</a>
+                        <a class="menu__link" href="#main-program">Program</a>
+                        <a class="menu__link" href="#">Join</a>
+                        <a class="menu__link" href="#feature-speaker">Sponsor</a>
+                        <a class="menu__link" href="#">CC Campaign</a>                        
+                    </ul>
+                </nav>                
+            </div>            
         </header>
-        <section>
+        <!-- Hero -->
+        <section class="headline">
+            <h2 class="darkgray-color"><strong>"Hello! Sharing world"</strong></h2>
+            <h1 class="primary-text">CREATIVE COMMONS GLOBAL SUMMIT 2015</h1>
+            <div class="primary-message"><p class="gray-color">A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in October, in Korea.</p></div>
+            <div class="date-venue">
+                <p class="date gray-color">2015.10.15(THU) ~ 16(FRI)</p>
+                <p class="venue gray-color">@National Museum of Karea, Art Center Nabi and more</p>
+            </div>
+        </section>
+        <!-- Main Program -->
+        <section id="main-program">
+            <h2><strong>Main Program</strong></h2>
+            <div class="line"></div>
+            <div>
+                <div class="program">
+                    <figure>
+                        <img
+                        src="/images/program-icon-01.svg"
+                        alt="Soft Skills"
+                        />
+                        <figcaption>Soft Skills</figcaption>
+                    </figure>
+                    <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                </div>
+                <div class="program">
+                    <figure>
+                        <img
+                        src="/images/program-icon-02.svg"
+                        alt="Cyber Security"
+                        />
+                        <figcaption>Cyber Security</figcaption>
+                    </figure>
+                    <p>Appreciate various creations applying CC license of artists, organized from Art Center Nabi</p>
+                </div>
+                <div class="program">
+                    <figure>
+                        <img
+                        src="/images/program-icon-03.svg"
+                        alt="Cloud Computing"
+                        />
+                        <figcaption>Cloud Computing</figcaption>
+                    </figure>
+                    <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+                </div>
+                <div class="program">
+                    <figure>
+                        <img
+                        src="/images/program-icon-04.svg"
+                        alt="App Development"
+                        />
+                        <figcaption>App Development</figcaption>
+                    </figure>
+                    <p>Try creating your own work using open source license rather than just watching at it.</p>
+                </div>
+                <div class="program">
+                    <figure>
+                        <img
+                        src="/images/program-icon-05.svg"
+                        alt="Backend"
+                        />
+                        <figcaption>Backend</figcaption>
+                    </figure>
+                    <p>Get opportunities to network with CC affiliates around the world, also after the summit.</p>
+                </div>
+            </div>
+            <a href="#" class="main-button hide-desktop">Join CC Global Summit 2015</a>
+            <a href="#" class="main-button hide-mobile">SEE THE WHOLE PROGRAM</a>
+        </section>
+        <!-- Featured Speakers -->
+        <section id="feature-speaker">
+            <h2><strong>Featured Speakers</strong></h2>
+            <div class="line"></div>
+            <!-- Speakers list -->
+            <section class="speakers-cards">
+            </section>
+            <!-- END - Speakers list -->
+            <button class="toggle-btn hide-desktop" onclick="toggleButton()">MORE</button>
 
         </section>
+        <section id="partners" class="hide-mobile">
+            <h2><strong>Partner</strong></h2>
+            <div class="line"></div>
+            <div class="partners-logo">
+                <img src="/images/partner-1.png" alt="partner-logo">
+                <img src="/images/partner-2.png" alt="partner-logo">
+                <img src="/images/partner-3.png" alt="partner-logo">
+                <img src="/images/partner-4.png" alt="partner-logo">
+                <img src="/images/partner-5.png" alt="partner-logo">
+              </div>
+        </section>        
     </main>
+    <footer class="hide-mobile">
+        <img class="footer-logo" src="images/logo-webinar.png" alt="Tech on Demand" />
+        <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+    </footer>    
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
