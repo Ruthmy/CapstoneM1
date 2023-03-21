@@ -58,10 +58,10 @@ const indexCardsArray = [
     {
       id: '5',
       image: '/images/speaker-05.png',
-      imagealt: 'Julia Leda',
-      name: 'Julia Leda',
+      imagealt: 'Julio Leda',
+      name: 'Julio Leda',
       whois: 'CEO of PYP of Europe',
-      details: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
+      details: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law.',
     },
     {
       id: '6',
