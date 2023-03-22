@@ -12,7 +12,7 @@
   }
 
   h1.primary-text {
-    /* background-clip: text; */
+    font-size: 3rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
@@ -25,6 +25,7 @@
     margin: 1.5rem 0 1.5rem 0;
     justify-content: center;
     text-align: center;
+    line-height: 1.6rem;
   }
 
   .contact-mail {
@@ -196,6 +197,7 @@
     margin: 1.5rem 0 1.5rem 0;
     justify-content: center;
     text-align: center;
+    line-height: 1.6rem;
   }
 
   .contact-mail {
@@ -208,13 +210,12 @@
   .headline p.contact {
     font-weight: 700;
     font-size: 1rem;
-    letter-spacing: -0.05rem;
   }
 
   .headline p.mail {
     font-weight: 800;
     font-size: 1rem;
-    letter-spacing: -0.05rem;
+    letter-spacing: 0.01rem;
     text-decoration: underline darkslategray;
   }
 
@@ -338,7 +339,7 @@
 
   footer img {
     width: 20%;
-    padding: 1rem;
+    padding: 1rem 5rem 1rem 1rem;
   }
 
   .partners-logo > img {

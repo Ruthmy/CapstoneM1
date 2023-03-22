@@ -13,7 +13,7 @@
   }
 
   h1.primary-text {
-    /* background-clip: text; */
+    font-size: 3rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
@@ -266,7 +266,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 6rem 15rem 2rem 15rem;
+    padding: 6rem 15vw 2rem 15vw;
     gap: 1rem;
     background-image: url(../images/background-hero-desktop.png);
     background-repeat: no-repeat;
@@ -274,7 +274,6 @@
   }
 
   h1.primary-text {
-    /* background-clip: text; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
@@ -286,10 +285,12 @@
     border: solid 4px white;
     padding: 0.8rem;
     margin: 1.5rem 0 1.5rem 0;
+    width: 80%;
+    line-height: 1.5rem;
   }
 
   .date-venue {
-    padding: 0 1rem 0 1rem;
+    padding: 0 1rem 0 0;
     margin-bottom: 2rem;
   }
 
@@ -340,9 +341,10 @@
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    width: fit-content;
-    height: 18rem;
-    min-height: fit-content;
+    min-width: min-content;
+    max-width: 14rem;
+    min-height: 18rem;
+    max-height: min-content;
     gap: 0.5rem;
     padding: 1.5rem;
     margin: 2rem 0;
@@ -359,6 +361,7 @@
   .program figure {
     display: flex;
     flex-direction: column;
+    padding-top: 1rem;
     gap: 0.8rem;
     align-items: center;
     align-content: flex-start;

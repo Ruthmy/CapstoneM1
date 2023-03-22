@@ -26,7 +26,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -48,6 +47,9 @@ This project is based on the [original design idea by Cindy Shin in Behance](htt
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</a></li>
   </ul>
+  <ul>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a></li>
+  </ul>
 </details>
 
 <details>
@@ -68,10 +70,17 @@ This project is based on the [original design idea by Cindy Shin in Behance](htt
 
 ### Key Features <a name="key-features"></a>
 
-- **[Lihgthouse]**
-- **[Webhint]**
-- **[Stylelint]**
-- **[ESLint]**
+<ul>
+  <li>HTML & CSS3</li>
+  <li>JavaScript</li>
+  <li>Linters
+    <ul>
+      <li>Lihgthouse</li>
+      <li>Webhint</li>
+      <li>StyleLint</li>
+      <li>ESLint</li>
+    </ul>
+</ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,6 +184,8 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project and know someone who might find it helpful, please share it.
+If you liked the original design that inspired this project, I recommend you [visit Cindy Shin's Behance post](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015). and follow her on Behance to support her work.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,7 +202,7 @@ I would like to thank Microverse for pushing me to meet challenges like this.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Ruthmy/CapstoneM1/blob/de0b8319837dc0e2198442090e49d458e607d6f9/LICENSE) licensed.
+This project is [MIT](https://github.com/Ruthmy/CapstoneM1/blob/f79d052a441d3d52b8c3ccdd5c96b836322c3df2/LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
