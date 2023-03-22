@@ -432,7 +432,7 @@
     height: 11rem;
     padding: 0.7rem;
     background-color: white;
-    width: 47%;
+    width: 50%;
     justify-content: space-between;
     margin: 0.5rem 0 0.5rem 0;
     transition-property: all;
@@ -444,16 +444,18 @@
     border-radius: 8px;
     border: 1px solid #d0d9d4;
   }
-
+  
   .chess {
+    display: flex;
     background-image: url("../images/chess.png");
-    background-size: contain;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 40%;
     align-items: center;
     padding: 0.7rem 0 0 0.7rem;
-    width: 4rem;
-    height: 4rem;
     margin-left: 1rem;
     margin-top: 1rem;
+    width: 40%;
   }
 
   img.speaker-img {
@@ -463,6 +465,7 @@
 
   .speaker-data {
     width: 60%;
+    padding-left: 0.5rem;
   }
 
   .speaker-data h3 {
@@ -486,7 +489,7 @@
   .speaker-data p {
     font-size: 0.8rem;
     text-align: left;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 1rem;
     letter-spacing: -0.05rem;
     padding-top: 0.5rem;

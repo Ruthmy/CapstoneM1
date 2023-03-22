@@ -87,7 +87,7 @@ This project is based on the [original design idea by Cindy Shin in Behance](htt
 ## 🚀 Live Demo <a name="live-demo"></a>
 <br>
 
-<!-- [![Project presentation: video demo](https://cdn.loom.com/sessions/thumbnails/71fa9c1ba37b4a5395abf07a83a27183-with-play.gif)](https://www.loom.com/share/71fa9c1ba37b4a5395abf07a83a27183) -->
+[![Project presentation: video demo](https://cdn.loom.com/sessions/thumbnails/eff934abb4734706b04b3651f8e76e87-with-play.gif)](https://www.loom.com/share/eff934abb4734706b04b3651f8e76e87)
 - [Live Demo Link](https://ruthmy.github.io/CapstoneM1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
