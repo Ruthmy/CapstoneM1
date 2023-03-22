@@ -77,6 +77,12 @@ a {
   background-color: #ec5242;
 }
 
+.gray-line {
+  width: 5rem;
+  height: 0.2rem;
+  background-color: gray;
+}
+
 .secundary-line {
   width: 3rem;
   height: 0.2rem;
