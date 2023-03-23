@@ -444,7 +444,7 @@
     border-radius: 8px;
     border: 1px solid #d0d9d4;
   }
-  
+
   .chess {
     display: flex;
     background-image: url("../images/chess.png");
