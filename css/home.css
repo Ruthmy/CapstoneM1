@@ -1,0 +1,537 @@
+/* Mobile styles */
+@media (max-width: 767px) {
+  /* hero styles */
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6rem 1rem 2rem 1rem;
+    gap: 0.5rem;
+    background-image: url(../images/background-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1.primary-text {
+    font-size: 3rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-image: url(../images/letters-background.png);
+  }
+
+  .primary-message {
+    background-color: #f8f8f8;
+    border: solid 4px white;
+    padding: 0.8rem;
+    margin: 1.5rem 0 1.5rem 0;
+  }
+
+  .date-venue {
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .headline p.date {
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: -0.05rem;
+  }
+
+  .headline p.venue {
+    font-weight: 500;
+    letter-spacing: -0.05rem;
+  }
+
+  /* Main Program */
+  #main-program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/main-program.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 1rem 2rem 1rem;
+    gap: 0.5rem;
+  }
+
+  #main-program h2 {
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+  }
+
+  #main-program > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  div.line {
+    margin-bottom: 1.5rem;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    height: 8rem;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    transition-property: all;
+    transition-duration: 0.5s;
+  }
+
+  .program:hover {
+    scale: 1.02;
+    border: solid 1px #ec5242;
+    border-radius: 8px;
+  }
+
+  .program figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+  }
+
+  .chess > img {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  div.program img {
+    width: 3.5rem;
+    opacity: 0.9;
+  }
+
+  figcaption {
+    padding-left: 0.3rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.05rem;
+    font-weight: 600;
+    color: #ec5242;
+  }
+
+  .program p {
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    width: 55%;
+  }
+
+  .main-button {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    background-color: #ec5242;
+    color: white;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border: none;
+    width: 90%;
+  }
+
+  /* Featured Speakers */
+  #feature-speaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem 2rem 1rem;
+    gap: 0.5rem;
+  }
+
+  #feature-speaker h2 {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  /* Cards */
+  .speakers-cards {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .speaker:nth-child(n + 3) {
+    display: none;
+  }
+
+  .toggle-btn {
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+    border: solid 1px #dcdcdc;
+    font-weight: 800;
+    color: #272a31;
+  }
+
+  .toggle-btn.active {
+    display: block;
+  }
+
+  article.speaker {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    gap: 0.5rem;
+    padding: 0.7rem;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .chess {
+    background-image: url("../images/chess.png");
+    background-size: contain;
+    align-items: center;
+    padding: 0.7rem 0 0 0.7rem;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .speaker-data {
+    width: 60%;
+  }
+
+  .speaker-data h3 {
+    font-size: 1.4rem;
+    font-style: normal;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+  }
+
+  .speaker-data h4 {
+    font-size: 0.9rem;
+    font-style: normal;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    line-height: 1.15rem;
+    padding: 0.5rem 0 0.3rem 0;
+  }
+
+  .speaker-data p {
+    font-size: 0.8rem;
+    text-align: left;
+    font-weight: 800;
+    line-height: 1rem;
+    letter-spacing: -0.05rem;
+    padding-top: 0.5rem;
+  }
+}
+
+/* Desktop Styles  */
+@media (min-width: 768px) {
+  footer img {
+    width: 20%;
+    padding: 1rem;
+    margin-right: 8rem;
+  }
+
+  .partners-logo > img {
+    height: 2.5em;
+  }
+
+  .chess > img {
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .partners-logo img {
+    transition-property: all;
+    transition-duration: 0.7s;
+  }
+
+  div.program img {
+    width: 3.5rem;
+    opacity: 0.9;
+  }
+
+  .partners-logo img:hover {
+    scale: 1.02;
+    margin: 0 0.5rem 0 0.5rem;
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6rem 15vw 2rem 15vw;
+    gap: 1rem;
+    background-image: url(../images/background-hero-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1.primary-text {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-image: url(../images/letters-background.png);
+  }
+
+  .primary-message {
+    background-color: #f8f8f8;
+    border: solid 4px white;
+    padding: 0.8rem;
+    margin: 1.5rem 0 1.5rem 0;
+    width: 80%;
+    line-height: 1.5rem;
+  }
+
+  .date-venue {
+    padding: 0 1rem 0 0;
+    margin-bottom: 2rem;
+  }
+
+  .headline p.date {
+    font-weight: 800;
+    font-size: 1.4rem;
+    letter-spacing: -0.05rem;
+  }
+
+  .headline p.venue {
+    padding: 0.5rem 0 0.5rem 0;
+    font-weight: 550;
+    letter-spacing: -0.05rem;
+  }
+
+  /* Main Program */
+  #main-program {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/main-program.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 4rem 4rem 4rem;
+    gap: 0.5rem;
+  }
+
+  #main-program h2 {
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+  }
+
+  div.line {
+    margin-bottom: 1.5rem;
+  }
+
+  #main-program > div {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  div.program {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    min-width: min-content;
+    max-width: 14rem;
+    min-height: 18rem;
+    max-height: min-content;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    transition-property: all;
+    transition-duration: 0.5s;
+  }
+
+  .program:hover {
+    scale: 1.02;
+    border: solid 1px #ec5242;
+    border-radius: 8px;
+  }
+
+  .program figure {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 0.8rem;
+    align-items: center;
+    align-content: flex-start;
+  }
+
+  figcaption {
+    padding-left: 0.3rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.05rem;
+    font-weight: 600;
+    color: #ec5242;
+  }
+
+  footer p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .program p {
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    width: 90%;
+  }
+
+  .main-button {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: underline;
+    letter-spacing: 0.05rem;
+    background-color: transparent;
+    color: white;
+    margin: 1.5rem;
+    border: none;
+  }
+
+  #feature-speaker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 2rem 5rem 2rem 5rem;
+    gap: 0.5rem;
+  }
+
+  #feature-speaker h2 {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .speakers-cards {
+    display: flex;
+    height: 45rem;
+    flex-flow: column wrap;
+    align-content: center;
+    gap: 1rem 1rem;
+    flex-basis: 100%;
+  }
+
+  article.speaker {
+    display: flex;
+    flex-direction: row;
+    height: 11rem;
+    padding: 0.7rem;
+    background-color: white;
+    width: 50%;
+    justify-content: space-between;
+    margin: 0.5rem 0 0.5rem 0;
+    transition-property: all;
+    transition-duration: 0.7s;
+  }
+
+  article.speaker:hover {
+    scale: 1.01;
+    border-radius: 8px;
+    border: 1px solid #d0d9d4;
+  }
+
+  .chess {
+    display: flex;
+    background-image: url("../images/chess.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    align-items: center;
+    padding: 0.7rem 0 0 0.7rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 40%;
+  }
+
+  img.speaker-img {
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .speaker-data {
+    width: 60%;
+    padding-left: 0.5rem;
+  }
+
+  .speaker-data h3 {
+    font-size: 1.4rem;
+    font-style: normal;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+  }
+
+  .speaker-data h4 {
+    font-size: 0.9rem;
+    font-style: normal;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: -0.05rem;
+    line-height: 1.15rem;
+    padding: 0.5rem 0 0.3rem 0;
+  }
+
+  .speaker-data p {
+    font-size: 0.8rem;
+    text-align: left;
+    font-weight: 600;
+    line-height: 1rem;
+    letter-spacing: -0.05rem;
+    padding-top: 0.5rem;
+  }
+
+  #past-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #past-events h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  #partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #414246;
+  }
+
+  #partners h2 {
+    color: white;
+    padding-bottom: 0.5rem;
+  }
+
+  div.partners-logo {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+  }
+}

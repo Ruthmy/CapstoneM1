@@ -1,0 +1,357 @@
+@media (max-width: 767px) {
+  /* hero styles */
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6rem 1rem 2rem 1rem;
+    gap: 0.5rem;
+    background-image: url(../images/background-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1.primary-text {
+    font-size: 3rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-image: url(../images/letters-background.png);
+  }
+
+  .primary-message {
+    background-color: white;
+    padding: 0.8rem;
+    margin: 1.5rem 0 1.5rem 0;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.6rem;
+  }
+
+  .contact-mail {
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .headline p.contact {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -0.05rem;
+  }
+
+  .headline p.mail {
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: -0.05rem;
+  }
+
+  #info,
+  #past-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  #info h2,
+  #past-events h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  div.line {
+    margin-bottom: 1.5rem;
+  }
+
+  footer p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .event-one p,
+  .event-two p {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+  }
+
+  #info p,
+  #past-events p {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  div.info-divisor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px lightgrey;
+    border-style: solid none solid none;
+  }
+
+  .info-logo {
+    width: 80%;
+    padding: 2rem;
+  }
+
+  .event-one,
+  .event-two {
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    height: 12em;
+    padding: 2.5rem 0;
+  }
+
+  .event-one {
+    background-size: cover;
+    background-image:
+      linear-gradient(rgb(249 4 0 / 38%), rgb(196 27 27 / 57%)),
+      url("../images/conference.png");
+  }
+
+  .event-two {
+    background-size: cover;
+    background-image:
+      linear-gradient(rgb(249 4 0 / 38%), rgb(196 27 27 / 57%)),
+      url("../images/webinar.jpg");
+  }
+
+  .event-one h4,
+  .event-two h4 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+  }
+
+  #partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #414246;
+  }
+
+  #partners h2 {
+    color: white;
+    padding-bottom: 0.5rem;
+  }
+
+  div.partners-logo {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  footer img {
+    width: 40%;
+    padding: 1rem;
+  }
+
+  .partners-logo > img {
+    height: 2.5em;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 0;
+  }
+}
+
+/* Desktop Styles  */
+@media (min-width: 768px) {
+  /* hero styles */
+  .headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 6rem 7rem 2rem 7rem;
+    gap: 0.5rem;
+    background-image: url(../images/background-hero-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1.primary-text {
+    padding: 1rem;
+
+    /* background-clip: text; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-image: url(../images/letters-background.png);
+  }
+
+  .primary-message {
+    background-color: white;
+    padding: 0.8rem;
+    width: 70%;
+    margin: 1.5rem 0 1.5rem 0;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.6rem;
+  }
+
+  .contact-mail {
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .headline p.contact {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .headline p.mail {
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 0.01rem;
+    text-decoration: underline darkslategray;
+  }
+
+  #info {
+    border: 1px lightgrey;
+    border-style: solid none solid none;
+  }
+
+  #info,
+  #past-events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+  }
+
+  #info h2,
+  #past-events h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .events {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  div.line {
+    margin-bottom: 1.5rem;
+  }
+
+  footer p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  .event-one p,
+  .event-two p {
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+  }
+
+  #info p,
+  #past-events p {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  div.info-divisor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  .info-logo {
+    width: 50%;
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px lightgrey;
+    border-style: solid;
+  }
+
+  .event-one,
+  .event-two {
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    height: 12em;
+    padding: 2.5rem 0;
+  }
+
+  .event-one {
+    background-size: cover;
+    background-image:
+      linear-gradient(rgb(249 4 0 / 38%), rgb(196 27 27 / 57%)),
+      url("../images/conference.png");
+  }
+
+  .event-two {
+    background-size: cover;
+    background-image:
+      linear-gradient(rgb(249 4 0 / 38%), rgb(196 27 27 / 57%)),
+      url("../images/webinar.jpg");
+  }
+
+  .event-one h4,
+  .event-two h4 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+  }
+
+  #partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #414246;
+  }
+
+  #partners h2 {
+    color: white;
+    padding-bottom: 0.5rem;
+  }
+
+  div.partners-logo {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+
+  #partners.hide-desktop {
+    display: none;
+  }
+
+  footer img {
+    width: 20%;
+    padding: 1rem 5rem 1rem 1rem;
+  }
+
+  .partners-logo > img {
+    height: 2.5em;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: #2e2e2e;
+  }
+}
